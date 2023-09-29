@@ -1,0 +1,95 @@
+/* .experiencia01{
+    margin-top: 400px;
+} */
+
+
+.experiencia__container{
+   display: grid; 
+   grid-template-columns: 1fr 1fr;
+   gap: 2rem;
+}
+.experiencia__container > div{
+    background: var(--color-bg-variant);
+    padding: 1.4rem 5rem;
+    border-radius: 2rem;
+    border: 1px solid rgb(0, 255, 13);
+    transition: var(--transition);
+}
+.experiencia__container > div:hover{
+    background: transparent;
+    border-color: var(--color-primary-variant);
+    cursor: default;
+
+}
+
+.experiencia__container > div h3{
+    text-align: center;
+    margin-bottom: 2rem;
+    color: var(--color-primary)
+}
+
+
+.experience__content{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 2rem;
+}
+
+.experience__details{
+    display: flex;
+    gap: 1rem;
+}
+
+/* icons que eu ja tenho habilidade, eles estao verdes */
+.experience__details-icon{
+    margin-top: 6px;
+    color: var(--color-primary);
+
+}
+
+/*icons que eu estou estudando, eles esao amarelos*/
+.experience__details-iconAT{
+    margin-top: 6px;
+    color: rgb(255, 238, 0);
+    
+}
+/*icons que eu nao tenho conhecimento, eles esao vermelhos*/
+.experience__details-iconN{
+    margin-top: 6px;
+    color: red;
+    
+}
+
+
+
+
+/* parte das midias para tablet */
+@media screen and (max-width: 1024px){
+   
+    .experiencia__container{
+       grid-template-columns: 1fr; 
+    }
+    .experiencia__container > div{
+        width: 80%;
+        padding: 2rem;
+        margin: 0 auto;
+    }
+    .experience__content{
+        padding: 1rem;
+    }
+
+
+}
+
+
+/* parte das midias para celular */
+@media screen and (max-width: 600px){
+    
+    .experiencia__container{
+        gap: 1rem;
+     }
+     .experiencia__container > div{
+        width: 100%;
+        padding: 2rem 1rem;
+     }
+}
