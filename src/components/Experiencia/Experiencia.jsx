@@ -90,7 +90,7 @@ const experiencia = () => {
             <article className='experience__details'>
                 <GiStopwatch className='experience__details-iconAT'/>
               <div>
-              <h4>Python</h4>
+              <h4>PYTHON</h4>
                 <small className='text-light'>Estudando...</small>
               </div>
             </article>
