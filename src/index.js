@@ -4,4 +4,4 @@ import App from "./App";
 import './index.css'
 
 ReactDOM.render(<App/>, document.querySelector("#root"))
-// window.alert('Tenha uma melhor  experiência no Pc!')
+ window.alert('Tenha uma melhor  experiência no Pc!')
